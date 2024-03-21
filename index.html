@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/styles/style.css" rel="stylesheet">
+
+
+  <title> Trợ lý pháp luật </title>
+</head>
+
+<body>
+  <div class="d-flex">
+    <!-- LEFT BAR -->
+    <div class="d-flex flex-column left-bar text-center">
+      <div class="avatar">
+        <img class="" src="./assets/imgs/avatar.png" alt="">
+      </div>
+
+      <nav class="navbar d-flex justify-content-center ">
+        <ul class="">
+          <a href="" class="nav-link">
+            <li class="nav-item">
+              <!-- <i class="fa-solid fa-house"></i> -->
+              <img src="./assets/icons/home.png" alt="">
+            </li>
+          </a>
+          <a href="" class="nav-link">
+            <li class="nav-item">
+              <!-- <i class="fa-regular fa-comment-dots"></i> -->
+              <img src="./assets/icons/chat.png" alt="">
+            </li>
+          </a>
+          <a href="" class="nav-link">
+            <li class="nav-item">
+              <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+              <img src="./assets/icons/search.png" alt="">
+            </li>
+          </a>
+          <a href="" class="nav-link">
+            <li class="nav-item">
+              <!-- <i class="fa-brands fa-elementor"></i> -->
+              <img src="./assets/icons/archive-book.png" alt="">
+            </li>
+          </a>
+          <a href="" class="nav-link">
+            <li class="nav-item">
+              <!-- <i class="fa-regular fa-circle-user"></i> -->
+              <img src="./assets/icons/profile-circle.png" alt="">
+            </li>
+          </a>
+        </ul>
+      </nav>
+
+      <a class="setting d-flex align-items-center justify-content-center ">
+        <!-- <i class="fa-solid fa-gear"></i> -->
+        <img src="./assets/icons/setting.png" alt="">
+      </a>
+    </div>
+
+    <div class="left-bar-virtual"></div>
+
+    <div class="container mt-5">
+      <!-- HEADER -->
+      <div class="text-center">
+        <img class="logo" src="./assets/imgs/logo.png">
+        <p class="slogan"> Tìm kiếm văn bản,thủ tục, hướng dẫn pháp lý doanh nghiệp với công nghệ Trí tuệ nhân tạo (AI)
+        </p>
+      </div>
+
+      <!-- SEARCH -->
+      <div class="search">
+        <div class="search-bar d-flex justify-content-between" id="search-bar">
+          <div class="d-flex w-100 align-items-center ">
+            <!-- <i class="fa-solid fa-magnifying-glass fa-magnifying-glass-edit d-flex align-items-center "></i> -->
+            <img src="./assets/icons/search-normal.png" alt="">
+            <input type="text" name="" id="searchInput" class="search-input" autocomplete="off"
+              placeholder="Nhập thông tin cần tìm kiếm...">
+          </div>
+          <button type="button" class="btn-search" id="btn-search">
+            Tìm kiếm
+          </button>
+        </div>
+
+        <div class="search-results" id="search-results">
+
+          <div class="category" id="category-procedure">
+            <!-- <h4 class="category-head">- Thủ tục</h4> -->
+            <!-- <p class="category-detail"><i class="fa-solid fa-pager fa-pager-edit category-detail-icon"></i> Cấp Giấy chứng nhận đăng ký hoạt động lần đầu cho tổ chức khoa học và công nghệ</p>
+          <p class="category-detail"><i class="fa-solid fa-pager fa-pager-edit category-detail-icon"></i> Thay đổi, bổ sung nội dung Giấy chứng nhận đăng ký hoạt động của tổ chức KHCN</p>
+          <p class="category-detail"><i class="fa-solid fa-pager fa-pager-edit category-detail-icon"></i> Cấp giấy phép lao động cho chuyên gia khoa học công nghệ làm việc tại Việt Nam</p> -->
+          </div>
+
+          <div class="category" id="category-document">
+            <!-- <h4 class="category-head">- Văn bản</h4>
+          <div class="category-detail">
+            <p><i class="fa-regular fa-folder-closed fa-folder-closed-edit category-detail-icon"></i> Nghị định về doanh nghiệp khoa học và công nghệ</p>
+            <div class="row category-detail-more">
+                <div class="category-detail-more-item col-md-3">
+                  <span class="category-detail-more-header">Số: </span>13/2019/NĐ-CP
+                </div>
+                <div class="category-detail-more-item col-md-3">
+                  <span class="category-detail-more-header">Ngày ban hành: </span>01/02/2019
+                </div>
+                <div class="category-detail-more-item col-md-3">
+                  <span class="category-detail-more-header">Cơ quan ban hành: </span>Chính phủ
+                </div>
+                <div class="category-detail-more-item col-md-3">
+                  <span class="category-detail-more-header">Trạng thái: </span>Còn hiệu lực
+                </div>
+            </div>
+          </div> -->
+          </div>
+
+          <!-- <div class="d-flex justify-content-between">
+          <span class="number-of-result">Tìm thấy 24 kết quả</span>
+          <a href="" class="all-result">Tất cả kết quả</a>
+        </div> -->
+
+        </div>
+      </div>
+
+      <!-- CONTENT -->
+      <div class="content row mt-5 d-flex justify-content-around ">
+        <div class="col-4 d-flex justify-content-center p-0">
+          <div class="content-item text-center d-flex align-items-center justify-content-center">
+            <div>
+              <div>
+                <img src="./assets/icons/building.png" alt="">
+              </div>
+              <div>
+                <h4 class="content-item-title">Doanh nghiệp</h4>
+              </div>
+              <div>
+                <p class="content-item-quantity">3782 thông tin</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 d-flex justify-content-center p-0">
+          <div class="content-item text-center d-flex align-items-center justify-content-center">
+            <div>
+              <div>
+                <img src="./assets/icons/people.png" alt="">
+              </div>
+              <div>
+                <h4 class="content-item-title">Người lao động</h4>
+              </div>
+              <div>
+                <p class="content-item-quantity">589 thông tin</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 d-flex justify-content-center p-0">
+          <div class="content-item text-center d-flex align-items-center justify-content-center">
+            <div>
+              <div>
+                <img src="./assets/icons/bank.png" alt="">
+              </div>
+              <div>
+                <h4 class="content-item-title">Cơ quan chính phủ</h4>
+              </div>
+              <div>
+                <p class="content-item-quantity">2076 thông tin</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 d-flex justify-content-center p-0">
+          <div class="content-item text-center d-flex align-items-center justify-content-center">
+            <div>
+              <div>
+                <img src="./assets/icons/folder-open.png" alt="">
+              </div>
+              <div>
+                <h4 class="content-item-title">Văn bản pháp luật</h4>
+              </div>
+              <div>
+                <p class="content-item-quantity">2426 thông tin</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 d-flex justify-content-center p-0">
+          <div class="content-item text-center d-flex align-items-center justify-content-center">
+            <div>
+              <div>
+                <img src="./assets/icons/layer.png" alt="">
+              </div>
+              <div>
+                <h4 class="content-item-title">Thủ tục hành chính</h4>
+              </div>
+              <div>
+                <p class="content-item-quantity">267 thông tin</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 d-flex justify-content-center p-0">
+          <div class="content-item text-center d-flex align-items-center justify-content-center">
+            <div>
+              <div>
+                <img src="./assets/icons/document-text.png" alt="">
+              </div>
+              <div>
+                <h4 class="content-item-title">Hướng dẫn thực hiện</h4>
+              </div>
+              <div>
+                <p class="content-item-quantity">2095 thông tin</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <a href="" class="text-decoration-none">
+    <div class="chat-bot d-flex justify-content-center align-items-center gap-2">
+      <div>
+        <img src="./assets/icons/message.png" alt="">
+      </div>
+      <div class="chat-text">
+        Nói chuyện cùng Trợ lý ảo pháp luật
+      </div>
+    </div>
+  </a> -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://kit.fontawesome.com/c87437453a.js" crossorigin="anonymous"></script>
+
+  <script src="./assets/js/JQuery.js"></script>
+
+  <script>
+    let debounceTimer;
+    // const loading = document.getElementById("loading");
+    const queryInput = document.getElementById("searchInput");
+    const search_results = document.getElementById("search-results");
+
+
+
+    function debounce(func, delay) {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(func, delay);
+    }
+
+    async function searchAPI(queryInput) {
+      const apiURL = 'https://apis.trolyphapluat.ai/search-nlp';
+
+      const postData = {
+        "query": queryInput
+      };
+
+      fetch(apiURL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(postData)
+      })
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('Network response was not ok');
+          }
+          return response.json();
+        })
+        .then(data => {
+          search_results.innerHTML = '';
+          displayResult(data.ketQuaTimKiem.thongTinThuTuc);
+        })
+        .catch(error => {
+          console.error('There was an error!', error);
+        });
+    }
+
+
+    const nonAccentVietnamese = (str) => {
+      str = str.toLowerCase();
+      str = str.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g, "a");
+      str = str.replace(/è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ/g, "e");
+      str = str.replace(/ì|í|ị|ỉ|ĩ/g, "i");
+      str = str.replace(/ò|ó|ọ|ỏ|õ|ô|ồ|ố|ộ|ổ|ỗ|ơ|ờ|ớ|ợ|ở|ỡ/g, "o");
+      str = str.replace(/ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ/g, "u");
+      str = str.replace(/ỳ|ý|ỵ|ỷ|ỹ/g, "y");
+      str = str.replace(/đ/g, "d");
+      // Some system encode vietnamese combining accent as individual utf-8 characters
+      str = str.replace(/\u0300|\u0301|\u0303|\u0309|\u0323/g, ""); // Huyền sắc hỏi ngã nặng
+      str = str.replace(/\u02C6|\u0306|\u031B/g, ""); // Â, Ê, Ă, Ơ, Ư
+      // Replace spaces with hyphens
+      str = str.replace(/\s+/g, '-');
+      str = str.replace(/[(),]/g, '-');
+      return 'http://localhost/wordpress/docs/' + str;
+    };
+
+    function displayResult(data) {
+      const categoryDiv = document.createElement('div');
+      categoryDiv.classList.add('category');
+
+      const categoryHeadElement = document.createElement('h4');
+      categoryHeadElement.classList.add('category-head');
+      categoryHeadElement.textContent = '- Thủ tục';
+
+      categoryDiv.appendChild(categoryHeadElement);
+
+      data.forEach(element => {
+        const categoryDetailElementP = document.createElement('p'); // Create paragraph element
+        const categoryDetailElement = document.createElement('a'); // Create anchor element
+        categoryDetailElement.classList.add('category-detail');
+        var chuoiBanDau = element.tenThuTuc;
+        var chuoiSauKhiChuyen = nonAccentVietnamese(chuoiBanDau);
+        categoryDetailElement.setAttribute('href', chuoiSauKhiChuyen); // Set href attribute
+
+        categoryDetailElementP.appendChild(categoryDetailElement); // Append anchornchor to paragraph
+
+        // Thêm icon (nếu cần)
+        const iconElement = document.createElement('i');
+        // iconElement.classList.add('fa-solid', 'fa-pager', 'fa-pager-edit', 'category-detail-icon');
+        categoryDetailElement.appendChild(iconElement);
+
+        // Thêm nội dung dữ liệu từ API
+        categoryDetailElement.textContent = element.tenThuTuc;
+
+        // Thêm phần tử category-detail vào phần tử categoryDiv
+        categoryDiv.appendChild(categoryDetailElementP);
+      });
+
+      // Xóa bỏ tất cả các phần tử con của phần tử có id là 'search-results'
+      // search_results.innerHTML = '';
+
+      // Thêm phần tử categoryDiv vào phần tử có id là 'search-results'
+      search_results.appendChild(categoryDiv);
+
+      search_results.style.display = 'block';
+    }
+
+    queryInput.addEventListener("input", function () {
+      search_results.style.display = "none";
+      debounce(function () {
+        searchAPI(queryInput.value);
+      }, 500);
+    });
+  </script>
+
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
